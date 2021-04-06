@@ -161,33 +161,41 @@ switch (new Date().getMonth()) {
 case 0:
  
  month = "January";
- break;
+ 
+break;
 
 case 1:
     month = "February";
-    break;
+
+break;
 
 case 2:
     month = "March";
-    break;
+
+break;
 
 case 3:
     month = "April";
-    break;
+
+break;
 
 case 4:
     month = "May";
-    break;
+
+break;
 
 case 5:
     month = "June";
-    break;
+
+break;
 
 case 6:
     month = "July";
-    break;
+
+break;
   default:
-    month = "Unknown";
+
+month = "Unknown";
 }
 
 Блок кода после default будет выполняться, только если ни один case не совпал со значением переключателя.
