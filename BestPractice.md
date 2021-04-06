@@ -157,25 +157,33 @@ myFunction(5); // вернёт 15
 *Пример :*
 
 switch (new Date().getMonth()) {
-  case 0:
-    month = "January";
-    break;
-  case 1:
+ 
+case 0:
+ 
+ month = "January";
+ break;
+
+case 1:
     month = "February";
     break;
-  case 2:
+
+case 2:
     month = "March";
     break;
-  case 3:
+
+case 3:
     month = "April";
     break;
-  case 4:
+
+case 4:
     month = "May";
     break;
-  case 5:
+
+case 5:
     month = "June";
     break;
-  case 6:
+
+case 6:
     month = "July";
     break;
   default:
