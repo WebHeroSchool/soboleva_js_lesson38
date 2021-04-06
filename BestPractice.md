@@ -143,7 +143,9 @@ ECMAScript 2015 позволяет значения параметров по у
 *Пример :*
 
 function myFunction(x, y = 10) {
+  
   // y равен 10 если не пройден или не определен
+  
   return x + y;
 }
 myFunction(5); // вернёт 15
@@ -193,6 +195,7 @@ eval(),как правило, медленнее альтернатив, так 
 *Плохой пример :*
 
 let obj = { a: 20, b: 30 };
+
 let propname = getPropName();  // возвращает "a" или "b"
 
 eval( "let result = obj." + propname );
@@ -200,5 +203,7 @@ eval( "let result = obj." + propname );
 *Хороший пример :*
 
 let obj = { a: 20, b: 30 };
+
 let propname = getPropName();  // возвращает "a" или "b"
+
 let result = obj[ propname ];  //  obj[ "a" ] то же, что и obj.a
