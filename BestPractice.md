@@ -70,11 +70,17 @@ var y = new String("1");
 *Пример :*
 
 let x1 = {};           // new object
+
 let x2 = "";           // new primitive string
+
 let x3 = 0;            // new primitive number
+
 let x4 = false;        // new primitive boolean
+
 let x5 = [];           // new array object
+
 let x6 = /()/;         // new regexp object
+
 let x7 = function(){}; // new function object
 
 Это сильно упрощает код и повышает читабельность.
